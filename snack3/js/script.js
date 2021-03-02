@@ -5,9 +5,10 @@ inseriti.*/
 
 var numero = 0;
 
-for(var i = 0; i < 10; i++){
+for ( var i = 0; i < 10; i++ ) {
 
   numero = numero + parseInt(prompt("inserisci un numero"));
+
 
 }
 
