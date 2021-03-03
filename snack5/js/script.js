@@ -12,8 +12,7 @@ for (var i = 0; i < 6; i++ ){
 
  if ( numeroUtente %2 == 1 ) {
 
-
-  numero.push(numeroUtente);
+   numero.push(numeroUtente);
 
  }
 
