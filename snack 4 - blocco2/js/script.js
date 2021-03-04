@@ -8,15 +8,30 @@ var numeriInteri = [1, 2, 4, 6, 8, 3, 9, 10, 14];
 var somma = 0;
 // 2 somma numeri in posizione dispari
 
-for ( var i = 0; i < numeriInteri.length; i++){
+// for ( var i = 0; i < numeriInteri.length; i++){
+//
+//   if (i %2 == 1) {
+//
+//     somma += numeriInteri[i];
+//
+//   }
+// }
+//
+// console.log(somma);
 
-  if (i %2 == 1) {
+// console.log(numeriInteri);
 
+// versione con while
+var i = 0;
+
+while ( i < numeriInteri.length ){
+
+  if ( i %2 == 1 ){
     somma += numeriInteri[i];
 
   }
+
+  i++;
 }
 
 console.log(somma);
-
-// console.log(numeriInteri);
